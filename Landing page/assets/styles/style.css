@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: none;
+}
+
+body {
+    background-color: #0F172A; 
+
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    height: 112px;
+    top: 4px;  
+}
+
+
+
+.nav a {
+    text-decoration: none;
+    color: #F8FAFC;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;  
+    padding: 10px; 
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 384px;
+    height: 48px;
+
+}
+
+.title{
+    margin-top: 98px;
+    margin-left: 144px;
+    margin-bottom: 83px;
+}
+
+.projects {
+    font-display: flex;
+    flex-direction: column;
+    padding-left: 144px;
+    
+}
+
+.article {
+    margin-bottom: 41px;
+    color: #F8FAFC;
+    display: flex;
+    background-color: #1E293B66;
+    width: 1150px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.img1{
+    width: 250px;
+    height: 231.76px;  
+    padding-left: 8px;
+    padding-top: 34.12PX;
+    margin-right: 44px;
+}
+
+.img2{
+    width: 200px;
+    height: 208.1px;  
+    padding-left: 17px;
+    padding-top: 45.95PX;
+    margin-right: 76px;
+}
+
+.img3{
+    width: 150px;
+    height: 191.58px;  
+    padding-left: 27px;
+    padding-top: 54.21PX;
+    margin-right: 106px;
+}
+
+.descr h3 {
+    padding-top: 87.5px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.descr p{
+    margin-bottom: 14px;
+}
+
+
+.card {
+    margin-top: 82px;
+    color: #F8FAFC;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E293B66;
+    width: 369px;
+    height: 518px;
+    border-radius: 20px;
+}
+
+.layouts {
+    display: flex;
+    flex-direction: row;
+    padding-left: 144px;
+    gap: 20px;
+    padding-bottom:139px ;
+}
+
+
+
+.text h3 {
+    padding: 22.74px 80px 3.5px 80px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.text time {
+    color: #9CA3AF;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 136px;
+    border-top: 1px solid #CBD5E1;
+    border-width: 100%;
+    box-sizing: border-box;
+}
+
+.footer1 {
+    width: 331px;
+    height: 23px;
+    left: 108px;
+    top: 2277px;
+    margin-top: 57px;
+    margin-left: 108px;
+}
+
+.footer2 {
+    width: 152px;
+    height: 44px;
+    margin-top: 42px;
+    margin-right:172px ;
+}
